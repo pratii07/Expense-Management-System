@@ -1,0 +1,520 @@
+2024-09-15 13:40:03,021 DEBUG cd newfrappebench && python3 -m venv env
+2024-09-15 13:40:07,918 DEBUG cd newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade pip
+2024-09-15 13:40:10,579 DEBUG cd newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet wheel
+2024-09-15 13:40:12,240 LOG Getting frappe
+2024-09-15 13:40:12,240 DEBUG cd newfrappebench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-09-15 13:40:15,563 LOG Installing frappe
+2024-09-15 13:40:15,563 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/frappe 
+2024-09-15 13:41:12,231 DEBUG cd /home/b116/newfrappebench/apps/frappe && yarn install --check-files
+2024-09-15 13:41:51,584 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-15 13:41:51,585 DEBUG cd newfrappebench && bench build
+2024-09-15 13:41:51,781 INFO /home/b116/.local/bin/bench build
+2024-09-15 13:42:28,558 LOG setting up backups
+2024-09-15 13:42:28,596 LOG backups were set up
+2024-09-15 13:42:28,596 INFO Bench newfrappebench initialized
+2024-09-15 13:42:28,937 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-15 13:43:11,332 INFO /home/b116/.local/bin/bench start
+2024-09-15 13:43:12,023 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-15 13:43:12,060 INFO /home/b116/.local/bin/bench worker
+2024-09-15 13:43:12,133 INFO /home/b116/.local/bin/bench watch
+2024-09-15 13:43:12,197 INFO /home/b116/.local/bin/bench schedule
+2024-09-15 13:44:27,204 INFO /home/b116/.local/bin/bench new-site pratiksha.com
+2024-09-15 13:46:39,212 INFO /home/b116/.local/bin/bench use pratiksha.com
+2024-09-15 13:46:44,707 INFO /home/b116/.local/bin/bench start
+2024-09-15 13:46:45,255 INFO /home/b116/.local/bin/bench worker
+2024-09-15 13:46:45,267 INFO /home/b116/.local/bin/bench watch
+2024-09-15 13:46:45,278 INFO /home/b116/.local/bin/bench schedule
+2024-09-15 13:46:45,349 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-15 14:32:29,240 INFO /home/b116/.local/bin/bench new-app airplane_mode
+2024-09-15 14:32:29,248 LOG creating new app airplane_mode
+2024-09-15 14:33:21,108 LOG Installing airplane_mode
+2024-09-15 14:33:21,109 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/airplane_mode 
+2024-09-15 14:33:23,515 DEBUG bench build --app airplane_mode
+2024-09-15 14:33:23,631 INFO /home/b116/.local/bin/bench build --app airplane_mode
+2024-09-15 14:34:11,880 WARNING bench build --app airplane_mode executed with exit code 1
+2024-09-15 14:34:11,881 WARNING /home/b116/.local/bin/bench new-app airplane_mode executed with exit code 1
+2024-09-15 14:34:12,103 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-15 14:35:26,189 INFO /home/b116/.local/bin/bench new-app airplane_mode
+2024-09-15 14:35:26,194 LOG creating new app airplane_mode
+2024-09-15 14:36:00,807 LOG Installing airplane_mode
+2024-09-15 14:36:00,807 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/airplane_mode 
+2024-09-15 14:36:03,245 DEBUG bench build --app airplane_mode
+2024-09-15 14:36:03,441 INFO /home/b116/.local/bin/bench build --app airplane_mode
+2024-09-15 14:36:05,265 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-15 14:36:05,464 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-15 14:37:51,941 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app airplane_mode
+2024-09-15 14:39:35,083 INFO /home/b116/.local/bin/bench start
+2024-09-15 14:39:35,540 INFO /home/b116/.local/bin/bench schedule
+2024-09-15 14:39:35,569 INFO /home/b116/.local/bin/bench watch
+2024-09-15 14:39:35,604 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-15 14:39:35,647 INFO /home/b116/.local/bin/bench worker
+2024-09-15 14:50:54,412 INFO /home/b116/.local/bin/bench new-app airplane_mode
+2024-09-15 14:50:54,418 LOG creating new app airplane_mode
+2024-09-15 14:52:09,661 LOG Installing airplane_mode
+2024-09-15 14:52:09,661 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/airplane_mode 
+2024-09-15 14:52:12,189 DEBUG bench build --app airplane_mode
+2024-09-15 14:52:12,328 INFO /home/b116/.local/bin/bench build --app airplane_mode
+2024-09-15 14:52:14,182 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-15 14:52:14,393 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-15 14:52:37,791 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app airplane_mode
+2024-09-15 15:14:21,751 INFO /home/b116/.local/bin/bench uninstall-app airplane_mode
+2024-09-15 15:15:43,430 INFO /home/b116/.local/bin/bench list-apps
+2024-09-15 15:17:32,238 INFO /home/b116/.local/bin/bench new-app airplane_mode
+2024-09-15 15:17:32,243 LOG creating new app airplane_mode
+2024-09-15 15:18:28,195 LOG Installing airplane_mode
+2024-09-15 15:18:28,196 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/airplane_mode 
+2024-09-15 15:18:31,407 DEBUG bench build --app airplane_mode
+2024-09-15 15:18:31,579 INFO /home/b116/.local/bin/bench build --app airplane_mode
+2024-09-15 15:18:33,653 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-15 15:18:33,902 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-15 15:18:54,851 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app airplane_mode
+2024-09-16 11:22:03,046 INFO /home/b116/.local/bin/bench start
+2024-09-16 11:22:03,835 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 11:22:03,916 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 11:22:03,931 INFO /home/b116/.local/bin/bench watch
+2024-09-16 11:22:04,030 INFO /home/b116/.local/bin/bench worker
+2024-09-16 11:52:20,696 INFO /home/b116/.local/bin/bench start
+2024-09-16 11:52:21,273 INFO /home/b116/.local/bin/bench worker
+2024-09-16 11:52:21,392 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 11:52:21,429 INFO /home/b116/.local/bin/bench watch
+2024-09-16 11:52:21,503 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 11:54:51,981 INFO /home/b116/.local/bin/bench use pratiksha.com
+2024-09-16 11:55:21,863 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app Ride
+2024-09-16 11:55:30,770 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app ride
+2024-09-16 11:57:37,961 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app ride
+2024-09-16 11:58:27,638 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app library
+2024-09-16 11:59:43,554 INFO /home/b116/.local/bin/bench list-apps
+2024-09-16 12:00:01,896 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-16 12:00:19,434 INFO /home/b116/.local/bin/bench list-apps
+2024-09-16 12:39:01,796 INFO /home/b116/.local/bin/bench use pratiksha.com
+2024-09-16 12:39:49,116 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app library
+2024-09-16 12:43:25,800 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app library
+2024-09-16 12:43:53,278 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app Library
+2024-09-16 12:50:59,110 INFO /home/b116/.local/bin/bench start
+2024-09-16 12:50:59,621 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 12:50:59,632 INFO /home/b116/.local/bin/bench worker
+2024-09-16 12:50:59,657 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 12:50:59,662 INFO /home/b116/.local/bin/bench watch
+2024-09-16 13:11:33,882 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app Library
+2024-09-16 13:14:41,449 INFO /home/b116/.local/bin/bench list-apps
+2024-09-16 13:16:52,460 INFO /home/b116/.local/bin/bench get-app /home/b116/ride
+2024-09-16 13:16:52,473 LOG Getting ride
+2024-09-16 13:16:52,474 DEBUG cd ./apps && git clone /home/b116/ride  --depth 1 --origin upstream
+2024-09-16 13:16:52,606 LOG Installing ride
+2024-09-16 13:16:52,607 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/ride 
+2024-09-16 13:16:56,231 DEBUG bench build --app ride
+2024-09-16 13:16:56,478 INFO /home/b116/.local/bin/bench build --app ride
+2024-09-16 13:17:07,189 WARNING bench build --app ride executed with exit code 1
+2024-09-16 13:17:07,189 WARNING /home/b116/.local/bin/bench get-app /home/b116/ride executed with exit code 1
+2024-09-16 13:17:07,544 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:17:54,606 INFO /home/b116/.local/bin/bench get-app /home/b116/ride
+2024-09-16 13:18:04,346 INFO App moved from apps/ride to archived/apps/ride-2024-09-16
+2024-09-16 13:18:04,357 LOG Getting ride
+2024-09-16 13:18:04,358 DEBUG cd ./apps && git clone https://github.com//home/b116/ride.git  --depth 1 --origin upstream
+2024-09-16 13:18:04,791 WARNING cd ./apps && git clone https://github.com//home/b116/ride.git  --depth 1 --origin upstream executed with exit code 128
+2024-09-16 13:18:04,792 WARNING /home/b116/.local/bin/bench get-app /home/b116/ride executed with exit code 1
+2024-09-16 13:18:05,199 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:24:17,656 INFO /home/b116/.local/bin/bench get-app /home/b116/newfrappebench/apps/ride
+2024-09-16 13:24:28,858 INFO App moved from apps/ride to archived/apps/ride-2024-09-16_1
+2024-09-16 13:24:28,861 LOG Getting ride
+2024-09-16 13:24:28,861 DEBUG cd ./apps && git clone https://github.com//home/b116/newfrappebench/apps/ride.git  --depth 1 --origin upstream
+2024-09-16 13:24:29,328 WARNING cd ./apps && git clone https://github.com//home/b116/newfrappebench/apps/ride.git  --depth 1 --origin upstream executed with exit code 128
+2024-09-16 13:24:29,328 WARNING /home/b116/.local/bin/bench get-app /home/b116/newfrappebench/apps/ride executed with exit code 1
+2024-09-16 13:24:29,657 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:25:18,559 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app ride
+2024-09-16 13:32:13,546 INFO /home/b116/.local/bin/bench get-app home/b116/ride
+2024-09-16 13:32:14,550 WARNING /home/b116/.local/bin/bench get-app home/b116/ride executed with exit code 1
+2024-09-16 13:32:14,782 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:32:42,503 INFO /home/b116/.local/bin/bench get-app /home/b116/ride
+2024-09-16 13:32:42,515 LOG Getting ride
+2024-09-16 13:32:42,515 DEBUG cd ./apps && git clone /home/b116/ride  --depth 1 --origin upstream
+2024-09-16 13:32:42,548 LOG Installing ride
+2024-09-16 13:32:42,550 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/ride 
+2024-09-16 13:32:46,021 DEBUG bench build --app ride
+2024-09-16 13:32:46,245 INFO /home/b116/.local/bin/bench build --app ride
+2024-09-16 13:32:49,600 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-16 13:32:49,874 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:33:19,483 INFO /home/b116/.local/bin/bench list-apps
+2024-09-16 13:35:54,438 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app ride
+2024-09-16 13:38:51,750 INFO /home/b116/.local/bin/bench start
+2024-09-16 13:38:52,262 INFO /home/b116/.local/bin/bench watch
+2024-09-16 13:38:52,337 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 13:38:52,355 INFO /home/b116/.local/bin/bench worker
+2024-09-16 13:38:52,403 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 13:43:10,501 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app library
+2024-09-16 13:44:04,793 INFO /home/b116/.local/bin/bench get-app /home/b116/library
+2024-09-16 13:44:04,810 LOG Getting library
+2024-09-16 13:44:04,810 DEBUG cd ./apps && git clone /home/b116/library  --depth 1 --origin upstream
+2024-09-16 13:44:04,897 LOG Installing library
+2024-09-16 13:44:04,898 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/library 
+2024-09-16 13:44:08,419 DEBUG bench build --app library
+2024-09-16 13:44:08,633 INFO /home/b116/.local/bin/bench build --app library
+2024-09-16 13:44:19,507 WARNING bench build --app library executed with exit code 1
+2024-09-16 13:44:19,507 WARNING /home/b116/.local/bin/bench get-app /home/b116/library executed with exit code 1
+2024-09-16 13:44:19,860 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:44:33,056 INFO /home/b116/.local/bin/bench get-app /home/b116/library
+2024-09-16 13:44:36,730 INFO App moved from apps/library to archived/apps/library-2024-09-16
+2024-09-16 13:44:36,733 LOG Getting library
+2024-09-16 13:44:36,733 DEBUG cd ./apps && git clone https://github.com//home/b116/library.git  --depth 1 --origin upstream
+2024-09-16 13:44:37,218 WARNING cd ./apps && git clone https://github.com//home/b116/library.git  --depth 1 --origin upstream executed with exit code 128
+2024-09-16 13:44:37,218 WARNING /home/b116/.local/bin/bench get-app /home/b116/library executed with exit code 1
+2024-09-16 13:44:37,587 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:49:31,928 INFO /home/b116/.local/bin/bench get-app home/b116/library
+2024-09-16 13:49:32,995 WARNING /home/b116/.local/bin/bench get-app home/b116/library executed with exit code 1
+2024-09-16 13:49:33,219 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:49:54,769 INFO /home/b116/.local/bin/bench get-app /home/b116/library
+2024-09-16 13:49:54,783 LOG Getting library
+2024-09-16 13:49:54,783 DEBUG cd ./apps && git clone /home/b116/library  --depth 1 --origin upstream
+2024-09-16 13:49:54,818 LOG Installing library
+2024-09-16 13:49:54,818 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/library 
+2024-09-16 13:49:58,994 DEBUG bench build --app library
+2024-09-16 13:49:59,217 INFO /home/b116/.local/bin/bench build --app library
+2024-09-16 13:50:02,141 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-16 13:50:05,538 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-16 13:52:13,105 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app library
+2024-09-16 13:53:46,491 INFO /home/b116/.local/bin/bench start
+2024-09-16 13:53:46,962 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 13:53:47,084 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 13:53:47,235 INFO /home/b116/.local/bin/bench watch
+2024-09-16 13:53:47,278 INFO /home/b116/.local/bin/bench worker
+2024-09-16 13:55:25,374 INFO /home/b116/.local/bin/bench build
+2024-09-16 13:55:51,065 INFO /home/b116/.local/bin/bench build
+2024-09-16 14:00:01,935 INFO /home/b116/.local/bin/bench migrate
+2024-09-16 14:00:53,466 INFO /home/b116/.local/bin/bench start
+2024-09-16 14:00:53,961 INFO /home/b116/.local/bin/bench watch
+2024-09-16 14:00:54,108 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 14:00:54,180 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 14:00:54,183 INFO /home/b116/.local/bin/bench worker
+2024-09-16 14:02:24,944 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-16 14:06:29,035 INFO /home/b116/.local/bin/bench --site pratiksha.com set-config developer_mode 1
+2024-09-16 14:06:43,654 INFO /home/b116/.local/bin/bench migrate
+2024-09-16 14:08:43,541 INFO /home/b116/.local/bin/bench build
+2024-09-16 14:09:59,330 INFO /home/b116/.local/bin/bench clear-cache
+2024-09-16 14:10:30,577 INFO /home/b116/.local/bin/bench start
+2024-09-16 14:10:31,124 INFO /home/b116/.local/bin/bench worker
+2024-09-16 14:10:31,232 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 14:10:31,258 INFO /home/b116/.local/bin/bench watch
+2024-09-16 14:10:31,279 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 16:40:32,366 INFO /home/b116/.local/bin/bench start
+2024-09-16 16:40:33,056 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 16:40:33,063 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 16:40:33,069 INFO /home/b116/.local/bin/bench worker
+2024-09-16 16:40:33,088 INFO /home/b116/.local/bin/bench watch
+2024-09-16 22:23:05,139 INFO /home/b116/.local/bin/bench start
+2024-09-16 22:23:05,868 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-16 22:23:05,907 INFO /home/b116/.local/bin/bench schedule
+2024-09-16 22:23:05,920 INFO /home/b116/.local/bin/bench worker
+2024-09-16 22:23:05,937 INFO /home/b116/.local/bin/bench watch
+2024-09-16 23:13:43,741 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-09-16 23:24:54,946 INFO /home/b116/.local/bin/bench --site pratiksha.com console --autoreload
+2024-09-17 00:00:02,667 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-17 10:19:15,687 INFO /home/b116/.local/bin/bench start
+2024-09-17 10:19:16,336 INFO /home/b116/.local/bin/bench worker
+2024-09-17 10:19:16,356 INFO /home/b116/.local/bin/bench schedule
+2024-09-17 10:19:16,360 INFO /home/b116/.local/bin/bench watch
+2024-09-17 10:19:16,405 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-17 12:00:01,550 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-17 14:30:19,257 INFO /home/b116/.local/bin/bench --version
+2024-09-17 14:49:15,790 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-17 14:52:23,572 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-17 16:00:56,739 INFO /home/b116/.local/bin/bench --pratiksha.com mariadb
+2024-09-17 16:01:12,496 INFO /home/b116/.local/bin/bench --site pratiksha.com mariadb
+2024-09-17 18:00:01,575 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-17 18:57:55,534 INFO /home/b116/.local/bin/bench --site pratiksha.com mariadb
+2024-09-17 22:38:42,535 INFO /home/b116/.local/bin/bench --site pratiksha.com mariadb
+2024-09-17 22:39:20,055 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-09-18 00:00:01,845 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-18 12:00:01,665 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-18 18:00:01,987 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-18 21:57:18,000 INFO /home/b116/.local/bin/bench get-app https://github.com/Akshata078/interview-management-system.git
+2024-09-18 21:57:18,016 LOG Getting interview-management-system
+2024-09-18 21:57:18,016 DEBUG cd ./apps && git clone https://github.com/Akshata078/interview-management-system.git  --depth 1 --origin upstream
+2024-09-18 21:57:18,909 LOG Installing interview_management_system
+2024-09-18 21:57:18,909 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/interview_management_system 
+2024-09-18 21:57:21,339 DEBUG bench build --app interview_management_system
+2024-09-18 21:57:21,449 INFO /home/b116/.local/bin/bench build --app interview_management_system
+2024-09-18 21:57:24,575 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-18 21:57:24,898 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 21:58:27,649 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app interview_management_system
+2024-09-18 21:58:49,437 INFO /home/b116/.local/bin/bench start
+2024-09-18 21:58:49,936 INFO /home/b116/.local/bin/bench schedule
+2024-09-18 21:58:49,944 INFO /home/b116/.local/bin/bench worker
+2024-09-18 21:58:49,974 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-18 21:58:50,019 INFO /home/b116/.local/bin/bench watch
+2024-09-18 22:01:13,425 INFO /home/b116/.local/bin/bench start
+2024-09-18 22:01:14,181 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-18 22:01:14,184 INFO /home/b116/.local/bin/bench worker
+2024-09-18 22:01:14,336 INFO /home/b116/.local/bin/bench watch
+2024-09-18 22:01:14,404 INFO /home/b116/.local/bin/bench schedule
+2024-09-19 00:00:02,090 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-19 11:20:41,238 INFO /home/b116/.local/bin/bench start
+2024-09-19 11:20:42,057 INFO /home/b116/.local/bin/bench schedule
+2024-09-19 11:20:42,138 INFO /home/b116/.local/bin/bench worker
+2024-09-19 11:20:42,170 INFO /home/b116/.local/bin/bench watch
+2024-09-19 11:20:42,180 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-19 12:00:01,743 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-19 15:51:03,446 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 15:56:31,777 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 15:58:16,807 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 16:01:47,324 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 16:04:39,353 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 16:06:35,310 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 16:07:11,952 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 16:15:03,325 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 16:19:48,238 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 16:31:27,713 INFO /home/b116/.local/bin/bench --site pratiksha.com migrate
+2024-09-19 18:00:01,549 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-19 22:08:03,911 INFO /home/b116/.local/bin/bench start
+2024-09-19 22:08:04,654 INFO /home/b116/.local/bin/bench schedule
+2024-09-19 22:08:04,790 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-19 22:08:04,795 INFO /home/b116/.local/bin/bench watch
+2024-09-19 22:08:04,873 INFO /home/b116/.local/bin/bench worker
+2024-09-20 10:32:52,835 INFO /home/b116/.local/bin/bench start
+2024-09-20 10:32:53,351 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-20 10:32:53,366 INFO /home/b116/.local/bin/bench watch
+2024-09-20 10:32:53,375 INFO /home/b116/.local/bin/bench worker
+2024-09-20 10:32:53,401 INFO /home/b116/.local/bin/bench schedule
+2024-09-20 12:00:01,465 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-20 12:59:28,695 INFO /home/b116/.local/bin/bench start
+2024-09-20 12:59:29,159 INFO /home/b116/.local/bin/bench watch
+2024-09-20 12:59:29,161 INFO /home/b116/.local/bin/bench worker
+2024-09-20 12:59:29,172 INFO /home/b116/.local/bin/bench schedule
+2024-09-20 12:59:29,187 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-20 13:56:06,306 INFO /home/b116/.local/bin/bench start
+2024-09-20 13:56:06,668 INFO /home/b116/.local/bin/bench watch
+2024-09-20 13:56:06,686 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-20 13:56:06,754 INFO /home/b116/.local/bin/bench schedule
+2024-09-20 13:56:06,878 INFO /home/b116/.local/bin/bench worker
+2024-09-20 14:01:57,777 INFO /home/b116/.local/bin/bench start
+2024-09-20 14:01:58,293 INFO /home/b116/.local/bin/bench watch
+2024-09-20 14:01:58,296 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-20 14:01:58,310 INFO /home/b116/.local/bin/bench worker
+2024-09-20 14:01:58,335 INFO /home/b116/.local/bin/bench schedule
+2024-09-20 14:13:06,492 INFO /home/b116/.local/bin/bench clear-cache
+2024-09-20 15:22:45,066 INFO /home/b116/.local/bin/bench start
+2024-09-20 15:22:45,611 INFO /home/b116/.local/bin/bench worker
+2024-09-20 15:22:45,622 INFO /home/b116/.local/bin/bench schedule
+2024-09-20 15:22:45,626 INFO /home/b116/.local/bin/bench watch
+2024-09-20 15:22:45,708 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-20 18:00:02,016 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-21 00:00:01,471 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-21 09:35:00,638 INFO /home/b116/.local/bin/bench start
+2024-09-21 09:35:01,196 INFO /home/b116/.local/bin/bench watch
+2024-09-21 09:35:01,207 INFO /home/b116/.local/bin/bench worker
+2024-09-21 09:35:01,222 INFO /home/b116/.local/bin/bench schedule
+2024-09-21 09:35:01,266 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-21 12:00:01,524 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-25 14:39:51,413 INFO /home/b116/.local/bin/bench start
+2024-09-25 14:39:52,100 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-25 14:39:52,122 INFO /home/b116/.local/bin/bench worker
+2024-09-25 14:39:52,185 INFO /home/b116/.local/bin/bench watch
+2024-09-25 14:39:52,197 INFO /home/b116/.local/bin/bench schedule
+2024-09-26 10:35:46,055 INFO /home/b116/.local/bin/bench start
+2024-09-26 10:35:46,595 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-26 10:35:46,613 INFO /home/b116/.local/bin/bench schedule
+2024-09-26 10:35:46,680 INFO /home/b116/.local/bin/bench watch
+2024-09-26 10:35:46,699 INFO /home/b116/.local/bin/bench worker
+2024-09-26 13:55:10,083 INFO /home/b116/.local/bin/bench start
+2024-09-26 13:55:10,598 INFO /home/b116/.local/bin/bench worker
+2024-09-26 13:55:10,612 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-26 13:55:10,626 INFO /home/b116/.local/bin/bench watch
+2024-09-26 13:55:10,634 INFO /home/b116/.local/bin/bench schedule
+2024-09-26 14:11:32,872 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-09-26 17:31:24,333 INFO /home/b116/.local/bin/bench start
+2024-09-26 17:31:24,884 INFO /home/b116/.local/bin/bench schedule
+2024-09-26 17:31:24,886 INFO /home/b116/.local/bin/bench watch
+2024-09-26 17:31:24,904 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-26 17:31:24,943 INFO /home/b116/.local/bin/bench worker
+2024-09-26 17:58:16,146 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-09-26 18:00:01,791 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-26 21:57:12,230 INFO /home/b116/.local/bin/bench start
+2024-09-26 21:57:13,049 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-26 21:57:13,064 INFO /home/b116/.local/bin/bench worker
+2024-09-26 21:57:13,228 INFO /home/b116/.local/bin/bench watch
+2024-09-26 21:57:13,315 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 09:20:50,034 INFO /home/b116/.local/bin/bench start
+2024-09-27 09:20:50,721 INFO /home/b116/.local/bin/bench worker
+2024-09-27 09:20:50,764 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 09:20:50,787 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 09:20:50,798 INFO /home/b116/.local/bin/bench watch
+2024-09-27 12:46:42,834 INFO /home/b116/.local/bin/bench start
+2024-09-27 12:46:43,357 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 12:46:43,367 INFO /home/b116/.local/bin/bench worker
+2024-09-27 12:46:43,393 INFO /home/b116/.local/bin/bench watch
+2024-09-27 12:46:43,398 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 13:14:05,362 INFO /home/b116/.local/bin/bench start
+2024-09-27 13:14:05,934 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 13:14:05,977 INFO /home/b116/.local/bin/bench worker
+2024-09-27 13:14:06,049 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 13:14:06,057 INFO /home/b116/.local/bin/bench watch
+2024-09-27 15:08:13,311 INFO /home/b116/.local/bin/bench start
+2024-09-27 15:08:13,874 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 15:08:13,875 INFO /home/b116/.local/bin/bench watch
+2024-09-27 15:08:13,908 INFO /home/b116/.local/bin/bench worker
+2024-09-27 15:08:13,915 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 18:52:44,004 INFO /home/b116/.local/bin/bench start
+2024-09-27 18:52:44,558 INFO /home/b116/.local/bin/bench watch
+2024-09-27 18:52:44,573 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 18:52:44,586 INFO /home/b116/.local/bin/bench worker
+2024-09-27 18:52:44,593 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 21:40:52,820 INFO /home/b116/.local/bin/bench start
+2024-09-27 21:40:53,450 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 21:40:53,453 INFO /home/b116/.local/bin/bench worker
+2024-09-27 21:40:53,465 INFO /home/b116/.local/bin/bench watch
+2024-09-27 21:40:53,467 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 22:50:18,234 INFO /home/b116/.local/bin/bench start
+2024-09-27 22:50:18,690 INFO /home/b116/.local/bin/bench watch
+2024-09-27 22:50:18,703 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 22:50:18,728 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 22:50:18,766 INFO /home/b116/.local/bin/bench worker
+2024-09-27 23:19:49,183 INFO /home/b116/.local/bin/bench start
+2024-09-27 23:19:49,610 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 23:19:49,619 INFO /home/b116/.local/bin/bench worker
+2024-09-27 23:19:49,620 INFO /home/b116/.local/bin/bench watch
+2024-09-27 23:19:49,647 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 23:50:33,318 INFO /home/b116/.local/bin/bench start
+2024-09-27 23:50:33,692 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-27 23:50:33,699 INFO /home/b116/.local/bin/bench schedule
+2024-09-27 23:50:33,778 INFO /home/b116/.local/bin/bench worker
+2024-09-27 23:50:33,804 INFO /home/b116/.local/bin/bench watch
+2024-09-28 09:15:29,118 INFO /home/b116/.local/bin/bench start
+2024-09-28 09:15:29,793 INFO /home/b116/.local/bin/bench watch
+2024-09-28 09:15:29,807 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-28 09:15:29,827 INFO /home/b116/.local/bin/bench worker
+2024-09-28 09:15:29,865 INFO /home/b116/.local/bin/bench schedule
+2024-09-28 11:39:02,550 INFO /home/b116/.local/bin/bench start
+2024-09-28 11:39:03,080 INFO /home/b116/.local/bin/bench schedule
+2024-09-28 11:39:03,091 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-28 11:39:03,122 INFO /home/b116/.local/bin/bench watch
+2024-09-28 11:39:03,143 INFO /home/b116/.local/bin/bench worker
+2024-09-28 12:00:02,119 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-28 12:47:26,725 INFO /home/b116/.local/bin/bench start
+2024-09-28 12:47:27,262 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-28 12:47:27,280 INFO /home/b116/.local/bin/bench schedule
+2024-09-28 12:47:27,289 INFO /home/b116/.local/bin/bench watch
+2024-09-28 12:47:27,303 INFO /home/b116/.local/bin/bench worker
+2024-09-28 16:37:05,318 INFO /home/b116/.local/bin/bench start
+2024-09-28 16:37:05,865 INFO /home/b116/.local/bin/bench schedule
+2024-09-28 16:37:05,875 INFO /home/b116/.local/bin/bench watch
+2024-09-28 16:37:05,878 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-28 16:37:05,889 INFO /home/b116/.local/bin/bench worker
+2024-09-28 19:21:02,956 INFO /home/b116/.local/bin/bench start
+2024-09-28 19:21:03,453 INFO /home/b116/.local/bin/bench schedule
+2024-09-28 19:21:03,466 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-28 19:21:03,478 INFO /home/b116/.local/bin/bench worker
+2024-09-28 19:21:03,502 INFO /home/b116/.local/bin/bench watch
+2024-09-28 19:54:00,382 INFO /home/b116/.local/bin/bench start
+2024-09-28 19:54:00,927 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-28 19:54:00,939 INFO /home/b116/.local/bin/bench watch
+2024-09-28 19:54:00,945 INFO /home/b116/.local/bin/bench worker
+2024-09-28 19:54:00,962 INFO /home/b116/.local/bin/bench schedule
+2024-09-28 21:50:21,194 INFO /home/b116/.local/bin/bench start
+2024-09-28 21:50:21,725 INFO /home/b116/.local/bin/bench watch
+2024-09-28 21:50:21,749 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-28 21:50:21,784 INFO /home/b116/.local/bin/bench schedule
+2024-09-28 21:50:21,800 INFO /home/b116/.local/bin/bench worker
+2024-09-29 00:00:01,729 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-29 13:42:40,433 INFO /home/b116/.local/bin/bench start
+2024-09-29 13:42:40,966 INFO /home/b116/.local/bin/bench watch
+2024-09-29 13:42:41,031 INFO /home/b116/.local/bin/bench schedule
+2024-09-29 13:42:41,032 INFO /home/b116/.local/bin/bench worker
+2024-09-29 13:42:41,054 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-30 11:32:30,311 INFO /home/b116/.local/bin/bench start
+2024-09-30 11:32:30,776 INFO /home/b116/.local/bin/bench watch
+2024-09-30 11:32:30,783 INFO /home/b116/.local/bin/bench schedule
+2024-09-30 11:32:30,797 INFO /home/b116/.local/bin/bench worker
+2024-09-30 11:32:30,815 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-30 12:00:02,177 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-09-30 20:05:45,986 INFO /home/b116/.local/bin/bench start
+2024-09-30 20:05:46,500 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-09-30 20:05:46,518 INFO /home/b116/.local/bin/bench worker
+2024-09-30 20:05:46,534 INFO /home/b116/.local/bin/bench watch
+2024-09-30 20:05:46,544 INFO /home/b116/.local/bin/bench schedule
+2024-10-02 21:34:20,310 INFO /home/b116/.local/bin/bench start
+2024-10-02 21:34:20,810 INFO /home/b116/.local/bin/bench schedule
+2024-10-02 21:34:20,816 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-02 21:34:20,840 INFO /home/b116/.local/bin/bench watch
+2024-10-02 21:34:20,857 INFO /home/b116/.local/bin/bench worker
+2024-10-02 22:26:50,468 INFO /home/b116/.local/bin/bench --site pratiksha.com mariadb
+2024-10-02 22:31:05,872 INFO /home/b116/.local/bin/bench --site pratiksha.com mariadb
+2024-10-02 22:43:00,738 INFO /home/b116/.local/bin/bench --site pratiksha.com mariadb
+2024-10-02 22:43:32,282 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-10-02 22:54:59,901 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-10-03 21:02:36,020 INFO /home/b116/.local/bin/bench start
+2024-10-03 21:02:36,583 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-03 21:02:36,585 INFO /home/b116/.local/bin/bench worker
+2024-10-03 21:02:36,596 INFO /home/b116/.local/bin/bench schedule
+2024-10-03 21:02:36,647 INFO /home/b116/.local/bin/bench watch
+2024-10-04 17:23:39,620 INFO /home/b116/.local/bin/bench start
+2024-10-04 17:23:40,195 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-04 17:23:40,225 INFO /home/b116/.local/bin/bench schedule
+2024-10-04 17:23:40,236 INFO /home/b116/.local/bin/bench watch
+2024-10-04 17:23:40,277 INFO /home/b116/.local/bin/bench worker
+2024-10-04 17:27:06,843 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-10-04 17:29:26,307 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-10-04 17:37:06,814 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-10-04 17:52:31,660 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-10-04 17:54:13,410 INFO /home/b116/.local/bin/bench --site pratiksha.com console
+2024-10-04 18:00:02,056 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-10-05 00:00:02,138 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-10-05 19:51:40,136 INFO /home/b116/.local/bin/bench start
+2024-10-05 19:51:40,820 INFO /home/b116/.local/bin/bench watch
+2024-10-05 19:51:40,857 INFO /home/b116/.local/bin/bench schedule
+2024-10-05 19:51:40,860 INFO /home/b116/.local/bin/bench worker
+2024-10-05 19:51:40,934 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-05 19:54:00,770 INFO /home/b116/.local/bin/bench new-app ExpenseManager
+2024-10-05 19:54:00,778 LOG creating new app expensemanager
+2024-10-05 19:55:35,717 LOG Installing expensemanager
+2024-10-05 19:55:35,719 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/expensemanager 
+2024-10-05 19:55:39,136 DEBUG bench build --app expensemanager
+2024-10-05 19:55:39,251 INFO /home/b116/.local/bin/bench build --app expensemanager
+2024-10-05 19:55:47,487 WARNING bench build --app expensemanager executed with exit code 1
+2024-10-05 19:55:47,487 WARNING /home/b116/.local/bin/bench new-app ExpenseManager executed with exit code 1
+2024-10-05 19:55:48,079 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 19:56:53,451 INFO /home/b116/.local/bin/bench new-app ExpenseManager
+2024-10-05 19:56:53,456 LOG creating new app expensemanager
+2024-10-05 19:57:48,223 LOG Installing expensemanager
+2024-10-05 19:57:48,225 DEBUG cd /home/b116/newfrappebench && /home/b116/newfrappebench/env/bin/python -m pip install --quiet --upgrade -e /home/b116/newfrappebench/apps/expensemanager 
+2024-10-05 19:57:51,009 DEBUG bench build --app expensemanager
+2024-10-05 19:57:51,127 INFO /home/b116/.local/bin/bench build --app expensemanager
+2024-10-05 19:57:52,846 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-05 19:57:53,397 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 19:59:11,886 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app ExpenseManager
+2024-10-05 20:00:02,076 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app expensemanager
+2024-10-05 20:05:40,013 INFO /home/b116/.local/bin/bench --site pratiksha.com list-apps
+2024-10-05 20:06:26,842 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app ExpenseManager
+2024-10-05 20:08:25,966 INFO /home/b116/.local/bin/bench --site pratiksha.com install-app expensemanager
+2024-10-05 20:11:36,266 INFO /home/b116/.local/bin/bench start
+2024-10-05 20:11:37,299 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-05 20:11:37,360 INFO /home/b116/.local/bin/bench worker
+2024-10-05 20:11:37,370 INFO /home/b116/.local/bin/bench watch
+2024-10-05 20:11:37,377 INFO /home/b116/.local/bin/bench schedule
+2024-10-05 20:32:29,808 INFO /home/b116/.local/bin/bench start
+2024-10-05 20:32:30,333 INFO /home/b116/.local/bin/bench watch
+2024-10-05 20:32:30,376 INFO /home/b116/.local/bin/bench worker
+2024-10-05 20:32:30,384 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-05 20:32:30,386 INFO /home/b116/.local/bin/bench schedule
+2024-10-05 21:46:39,610 INFO /home/b116/.local/bin/bench start
+2024-10-05 21:46:39,971 INFO /home/b116/.local/bin/bench worker
+2024-10-05 21:46:39,979 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-05 21:46:39,985 INFO /home/b116/.local/bin/bench schedule
+2024-10-05 21:46:40,027 INFO /home/b116/.local/bin/bench watch
+2024-10-06 17:56:35,819 INFO /home/b116/.local/bin/bench start
+2024-10-06 17:56:36,588 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-06 17:56:36,762 INFO /home/b116/.local/bin/bench worker
+2024-10-06 17:56:36,820 INFO /home/b116/.local/bin/bench schedule
+2024-10-06 17:56:36,829 INFO /home/b116/.local/bin/bench watch
+2024-10-06 18:00:01,688 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-10-06 19:04:02,426 INFO /home/b116/.local/bin/bench clear-cache
+2024-10-07 00:00:02,453 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-10-07 10:23:54,425 INFO /home/b116/.local/bin/bench start
+2024-10-07 10:23:54,989 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-07 10:23:54,992 INFO /home/b116/.local/bin/bench watch
+2024-10-07 10:23:55,003 INFO /home/b116/.local/bin/bench schedule
+2024-10-07 10:23:55,011 INFO /home/b116/.local/bin/bench worker
+2024-10-07 12:00:02,094 INFO /home/b116/.local/bin/bench --verbose --site all backup
+2024-10-07 12:33:50,025 INFO /home/b116/.local/bin/bench start
+2024-10-07 12:33:50,595 INFO /home/b116/.local/bin/bench serve --port 8003
+2024-10-07 12:33:50,619 INFO /home/b116/.local/bin/bench watch
+2024-10-07 12:33:50,629 INFO /home/b116/.local/bin/bench worker
+2024-10-07 12:33:50,651 INFO /home/b116/.local/bin/bench schedule

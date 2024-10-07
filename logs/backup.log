@@ -1,0 +1,138 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240916_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-16 12:00:03.804451
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240916_120002-pratiksha_com-site_config_backup.json 149.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240916_120002-pratiksha_com-database.sql.gz 242.3KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240917_000003-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-17 00:00:05.213928
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240917_000003-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240917_000003-pratiksha_com-database.sql.gz 272.7KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240917_120001-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-17 12:00:02.483870
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240917_120001-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240917_120001-pratiksha_com-database.sql.gz 279.3KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240917_180002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-17 18:00:04.597815
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240917_180002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240917_180002-pratiksha_com-database.sql.gz 286.6KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240918_000002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-18 00:00:03.505264
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240918_000002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240918_000002-pratiksha_com-database.sql.gz 293.4KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240918_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-18 12:00:02.695486
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240918_120002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240918_120002-pratiksha_com-database.sql.gz 298.5KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240918_180002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-18 18:00:02.860022
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240918_180002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240918_180002-pratiksha_com-database.sql.gz 299.4KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240919_000002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-19 00:00:03.567452
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240919_000002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240919_000002-pratiksha_com-database.sql.gz 305.9KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240919_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-19 12:00:04.288456
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240919_120002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240919_120002-pratiksha_com-database.sql.gz 308.0KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240919_180001-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-19 18:00:02.404015
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240919_180001-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240919_180001-pratiksha_com-database.sql.gz 325.2KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240920_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-20 12:00:03.001206
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240920_120002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240920_120002-pratiksha_com-database.sql.gz 332.2KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240920_180002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-20 18:00:02.969575
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240920_180002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240920_180002-pratiksha_com-database.sql.gz 349.8KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240921_000001-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-21 00:00:02.606160
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240921_000001-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240921_000001-pratiksha_com-database.sql.gz 353.9KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240921_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-21 12:00:03.600287
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240921_120002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240921_120002-pratiksha_com-database.sql.gz 363.2KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240926_180002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-26 18:00:02.890695
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240926_180002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240926_180002-pratiksha_com-database.sql.gz 365.5KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240928_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-28 12:00:02.990119
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240928_120002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240928_120002-pratiksha_com-database.sql.gz 416.8KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240929_000002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-29 00:00:03.800006
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240929_000002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240929_000002-pratiksha_com-database.sql.gz 433.8KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20240930_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-09-30 12:00:03.933469
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240930_120002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20240930_120002-pratiksha_com-database.sql.gz 434.7KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20241004_180002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-10-04 18:00:03.075908
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241004_180002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241004_180002-pratiksha_com-database.sql.gz 430.7KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20241005_000003-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-10-05 00:00:04.975141
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241005_000003-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241005_000003-pratiksha_com-database.sql.gz 432.9KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20241006_180002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-10-06 18:00:03.340705
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241006_180002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241006_180002-pratiksha_com-database.sql.gz 439.6KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20241007_000003-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-10-07 00:00:05.682778
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241007_000003-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241007_000003-pratiksha_com-database.sql.gz 449.0KiB
+Backup for Site pratiksha.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8d9c68f56cb41611 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8d9c68f56cb41611 | /usr/bin/gzip >> ./pratiksha.com/private/backups/20241007_120002-pratiksha_com-database.sql.gz
+
+Backup Summary for pratiksha.com at 2024-10-07 12:00:05.077049
+Config  : /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241007_120002-pratiksha_com-site_config_backup.json 216.0B
+Database: /home/b116/newfrappebench/sites/pratiksha.com/private/backups/20241007_120002-pratiksha_com-database.sql.gz 454.3KiB
+Backup for Site pratiksha.com has been successfully completed

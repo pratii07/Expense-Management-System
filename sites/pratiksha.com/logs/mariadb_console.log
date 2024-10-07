@@ -1,0 +1,4 @@
+_HiStOrY_V2_
+selct\040*\040from\040tabSingles\040HERE\040doctype\040=\040"rentals\040Settings";
+selct\040*\040from\040tabSingles\040WHERE\040doctype\040=\040"Rentals\040Settings";
+select\040*\040from\040tabSingles\040WHERE\040doctype\040=\040"Rentals\040Settings";

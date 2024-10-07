@@ -1,0 +1,605 @@
+2024-09-19 12:31:40,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice` MODIFY `quantity_2` int NOT NULL DEFAULT 0, MODIFY `price_2` int NOT NULL DEFAULT 0, MODIFY `price_3` int NOT NULL DEFAULT 0, MODIFY `quantity_1` int NOT NULL DEFAULT 0, MODIFY `quantity_4` int NOT NULL DEFAULT 0, MODIFY `price_1` int NOT NULL DEFAULT 0, MODIFY `price_4` int NOT NULL DEFAULT 0, MODIFY `quantity_3` int NOT NULL DEFAULT 0
+2024-09-19 12:32:06,472 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice` MODIFY `quantity_3` int NOT NULL DEFAULT 0, MODIFY `price_1` int NOT NULL DEFAULT 0, MODIFY `quantity_4` int NOT NULL DEFAULT 0, MODIFY `quantity_2` int NOT NULL DEFAULT 0, MODIFY `price_2` int NOT NULL DEFAULT 0, MODIFY `price_4` int NOT NULL DEFAULT 0, MODIFY `quantity_1` int NOT NULL DEFAULT 0, MODIFY `price_3` int NOT NULL DEFAULT 0
+2024-09-19 15:18:39,105 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 15:18:39,147 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 15:24:19,962 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `route` varchar(140)
+2024-09-19 15:24:20,001 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 15:25:28,530 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 15:29:43,186 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 15:44:39,036 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 15:45:56,330 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 15:51:04,228 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 15:51:06,105 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:51:07,103 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:51:07,361 WARNING database DDL Query made to DB:
+ALTER TABLE `tabRide Booking` MODIFY `rate` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-19 15:51:07,553 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice` MODIFY `quantity_4` int NOT NULL DEFAULT 0, MODIFY `quantity_1` int NOT NULL DEFAULT 0, MODIFY `price_1` int NOT NULL DEFAULT 0, MODIFY `price_2` int NOT NULL DEFAULT 0, MODIFY `quantity_3` int NOT NULL DEFAULT 0, MODIFY `quantity_2` int NOT NULL DEFAULT 0, MODIFY `price_4` int NOT NULL DEFAULT 0, MODIFY `price_3` int NOT NULL DEFAULT 0
+2024-09-19 15:51:07,708 WARNING database DDL Query made to DB:
+ALTER TABLE `tabRide Booking Items` MODIFY `distance` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-19 15:51:07,891 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 15:51:08,216 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:56:32,479 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 15:56:34,889 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:56:36,034 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:56:36,379 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:58:17,511 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 15:58:19,791 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:58:20,947 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 15:58:21,260 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:01:48,025 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 16:01:49,679 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:01:50,517 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:01:50,791 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:04:40,023 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 16:04:41,613 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:04:42,453 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:04:42,730 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:06:35,997 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 16:06:38,339 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:06:39,462 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:06:39,854 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:07:12,639 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 16:07:15,050 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:07:16,230 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:07:16,569 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:15:04,020 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 16:15:06,582 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:15:07,828 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:15:08,156 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:19:48,920 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 16:19:51,348 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:19:52,516 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:19:52,869 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:25:05,413 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 16:26:17,703 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 16:31:28,403 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-09-19 16:31:30,889 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:31:32,050 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:31:32,381 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 16:31:32,567 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVoting` MODIFY `age` int NOT NULL DEFAULT 0
+2024-09-19 16:32:00,325 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 16:39:59,603 WARNING database DDL Query made to DB:
+create table `tabInvoice Child` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-19 16:40:43,333 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parent varchar(140)
+2024-09-19 16:40:43,334 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parenttype varchar(140)
+2024-09-19 16:40:43,335 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parentfield varchar(140)
+2024-09-19 16:40:43,486 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice Child` ADD COLUMN `item` varchar(140), ADD COLUMN `quantity` int NOT NULL DEFAULT 0, ADD COLUMN `price` int NOT NULL DEFAULT 0
+2024-09-19 16:44:06,294 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parent varchar(140)
+2024-09-19 16:44:06,297 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parenttype varchar(140)
+2024-09-19 16:44:06,301 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parentfield varchar(140)
+2024-09-19 16:44:06,452 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice Child` MODIFY `price` int NOT NULL DEFAULT 0, MODIFY `quantity` int NOT NULL DEFAULT 0
+2024-09-19 16:47:39,208 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parent varchar(140)
+2024-09-19 16:47:39,210 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parenttype varchar(140)
+2024-09-19 16:47:39,211 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parentfield varchar(140)
+2024-09-19 16:47:39,354 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice Child` MODIFY `price` int NOT NULL DEFAULT 0, MODIFY `quantity` int NOT NULL DEFAULT 0
+2024-09-19 16:51:54,165 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parent varchar(140)
+2024-09-19 16:51:54,166 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parenttype varchar(140)
+2024-09-19 16:51:54,169 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parentfield varchar(140)
+2024-09-19 16:51:54,306 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice Child` MODIFY `quantity` int NOT NULL DEFAULT 0, MODIFY `price` int NOT NULL DEFAULT 0
+2024-09-19 17:05:17,778 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parent varchar(140)
+2024-09-19 17:05:17,779 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parenttype varchar(140)
+2024-09-19 17:05:17,780 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parentfield varchar(140)
+2024-09-19 17:05:17,919 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice Child` MODIFY `quantity` int NOT NULL DEFAULT 0, MODIFY `price` int NOT NULL DEFAULT 0
+2024-09-19 17:05:29,356 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parent varchar(140)
+2024-09-19 17:05:29,357 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parenttype varchar(140)
+2024-09-19 17:05:29,358 WARNING database DDL Query made to DB:
+alter table `tabInvoice Child` add column if not exists parentfield varchar(140)
+2024-09-19 17:05:29,493 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice Child` ADD COLUMN `products` varchar(140)
+2024-09-19 17:05:29,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInvoice Child` MODIFY `price` int NOT NULL DEFAULT 0, MODIFY `quantity` int NOT NULL DEFAULT 0
+2024-09-19 19:12:37,968 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 19:12:57,470 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 19:36:12,109 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 19:43:58,007 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 19:48:48,704 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-19 19:50:11,732 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 19:54:20,711 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-19 22:22:42,686 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 12:17:28,578 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 12:19:50,877 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 12:22:21,232 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 12:30:16,552 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 12:38:48,525 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 12:43:08,834 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 12:53:19,796 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 12:56:35,364 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 12:57:02,004 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 13:53:47,543 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 14:08:24,071 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 14:09:20,224 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 14:29:04,348 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 14:30:37,239 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 14:31:14,479 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 14:48:40,112 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 14:48:59,536 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 14:49:30,476 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 14:49:53,462 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 14:55:45,490 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 14:57:39,112 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 15:35:11,236 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 15:35:11,303 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD INDEX `modified`(`modified`)
+2024-09-20 17:15:06,273 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 17:15:14,081 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 17:22:09,482 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 17:22:41,736 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 17:24:59,651 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 17:24:59,651 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 17:24:59,651 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-20 20:31:27,586 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-20 21:59:04,690 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `vehicle_image` text
+2024-09-20 21:59:04,724 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-21 00:28:52,200 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `insurance_expiry` date
+2024-09-21 00:28:52,244 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-21 00:29:56,423 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-21 00:41:29,483 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `status` varchar(140)
+2024-09-21 00:41:29,519 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-09-21 00:42:31,200 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `condition` decimal(3,2)
+2024-09-21 00:42:31,233 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-09-25 15:28:32,508 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFlight Passenger` ADD COLUMN `full_name` varchar(140)
+2024-09-25 15:35:18,933 WARNING database DDL Query made to DB:
+create table `tabAirplane Ticket Add-on Type` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-25 15:38:11,444 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Type` ADD COLUMN `_user_tags` text, ADD COLUMN `_comments` text, ADD COLUMN `_assign` text, ADD COLUMN `_liked_by` text
+2024-09-25 15:39:25,337 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Type` ADD COLUMN `description` varchar(140)
+2024-09-25 15:39:51,874 WARNING database DDL Query made to DB:
+create table `tabAirplane Ticket Add-on Item` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-25 15:40:36,386 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-09-25 15:40:36,387 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-09-25 15:40:36,388 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-09-25 15:40:36,569 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` ADD COLUMN `item` varchar(140)
+2024-09-25 15:41:21,661 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-09-25 15:41:21,663 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-09-25 15:41:21,664 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-09-25 15:41:21,798 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` ADD COLUMN `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-25 15:44:35,967 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-09-25 15:44:35,969 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-09-25 15:44:35,970 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-09-25 15:44:36,134 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-25 15:44:43,061 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9)
+2024-09-25 15:45:05,644 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9)
+2024-09-25 15:46:44,712 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` ADD COLUMN `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, ADD COLUMN `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-25 15:46:44,745 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9)
+2024-09-27 09:36:03,342 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-09-27 09:36:03,345 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-09-27 09:36:03,345 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-09-27 09:36:03,479 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` ADD COLUMN `add_on_type` varchar(140)
+2024-09-27 09:36:03,513 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 09:36:53,466 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-09-27 09:36:53,469 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-09-27 09:36:53,471 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-09-27 09:36:53,594 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 10:09:46,849 WARNING database DDL Query made to DB:
+create table `tabAirplane Flight` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`amended_from` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `amended_from`(`amended_from`),
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-27 10:14:24,512 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `airplane` varchar(140), ADD COLUMN `date_of_departure` date, ADD COLUMN `time_of_departure` time(6), ADD COLUMN `duration` decimal(21,9), ADD COLUMN `status` varchar(140) DEFAULT 'Scheduled'
+2024-09-27 10:17:19,046 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 10:24:25,345 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-09-27 10:27:49,259 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 10:33:10,650 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `source_airport_code` varchar(140), ADD COLUMN `destination_airport_code` varchar(140)
+2024-09-27 10:33:10,682 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 10:33:53,383 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 10:38:08,914 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` ADD COLUMN `seat` varchar(140)
+2024-09-27 10:38:08,948 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-09-27 12:48:02,106 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 14:07:10,563 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `source_airport` varchar(140), ADD COLUMN `destination_airport` varchar(140)
+2024-09-27 14:07:10,597 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 14:11:44,160 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 14:13:06,598 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 14:21:06,000 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 14:31:08,219 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 15:29:54,635 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 15:45:59,820 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 16:02:55,316 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 16:14:38,391 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 16:16:51,496 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 16:17:41,809 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 16:25:41,373 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-09-27 16:38:01,428 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 17:33:25,169 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 19:13:36,465 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 19:13:59,155 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 19:14:20,265 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 19:27:06,017 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 19:28:10,002 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-09-27 19:28:41,441 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-27 20:00:20,042 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-09-27 22:03:51,708 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `is_published_` tinyint NOT NULL DEFAULT 0, ADD COLUMN `route` varchar(140)
+2024-09-27 22:03:51,744 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-09-27 22:04:10,119 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published_` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-09-27 22:04:10,119 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published_` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-09-27 22:10:35,136 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published_` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-09-27 22:10:35,136 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published_` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-09-27 22:25:19,251 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-27 22:25:19,251 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-27 22:57:16,608 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-27 23:00:22,708 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published_` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-09-27 23:01:51,189 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-28 09:41:53,846 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-28 09:42:24,624 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-28 14:00:11,322 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-28 14:00:32,896 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-28 20:49:29,757 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` varchar(140), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-09-28 20:50:23,361 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-28 23:43:27,171 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-09-30 19:38:16,852 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-09-30 19:47:14,522 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `flight_price` varchar(140)
+2024-09-30 19:47:14,556 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published_` tinyint NOT NULL DEFAULT 0
+2024-09-30 19:52:42,604 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published_` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-10-02 21:46:08,653 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `condition` decimal(3,2)
+2024-10-02 22:01:54,584 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `condition` decimal(3,2)
+2024-10-02 22:23:00,846 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `my_code` longtext
+2024-10-02 22:23:00,881 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `condition` decimal(3,2), MODIFY `year` int NOT NULL DEFAULT 0
+2024-10-02 22:23:08,297 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `condition` decimal(3,2), MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-10-02 22:23:42,442 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `condition` decimal(3,2), MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-10-05 20:34:44,194 WARNING database DDL Query made to DB:
+create table `tabExpense Claim` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-05 20:35:52,921 WARNING database DDL Query made to DB:
+create table `tabEmployee` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-05 20:36:20,619 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `employee_name` varchar(140)
+2024-10-05 20:37:49,678 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` ADD COLUMN `employee` varchar(140), ADD COLUMN `expense_type` varchar(140)
+2024-10-05 20:38:14,172 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` ADD COLUMN `date` date, ADD COLUMN `ammount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-05 20:40:16,763 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` ADD COLUMN `amount` decimal(21,9) NOT NULL DEFAULT 0.0, ADD COLUMN `status` varchar(140)
+2024-10-05 20:58:51,318 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` ADD COLUMN `workflow_state` varchar(140)
+2024-10-05 20:58:51,353 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-05 21:17:45,696 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-05 21:18:11,237 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-05 21:24:00,656 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-05 21:24:33,478 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-05 21:26:05,293 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-05 21:30:11,145 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `status` varchar(140) DEFAULT 'Draft', MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-06 18:12:52,290 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-06 22:12:14,562 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` ADD COLUMN `amended_from` varchar(140)
+2024-10-06 22:12:14,603 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-06 22:12:14,681 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` ADD INDEX `amended_from_index`(`amended_from`)
+2024-10-06 22:20:59,987 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 10:26:18,461 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `audit_completed_` tinyint NOT NULL DEFAULT 0
+2024-10-07 10:26:18,497 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `condition` decimal(3,2), MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-10-07 10:30:05,138 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `condition` decimal(3,2), MODIFY `audit_completed_` tinyint NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-10-07 10:42:36,870 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `condition` decimal(3,2), MODIFY `audit_completed_` tinyint NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-10-07 10:43:11,212 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `audit_completed_` tinyint NOT NULL DEFAULT 0, MODIFY `condition` decimal(3,2), MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0
+2024-10-07 10:43:28,633 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `audit_completed_` tinyint NOT NULL DEFAULT 0, MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `year` int NOT NULL DEFAULT 0, MODIFY `condition` decimal(3,2)
+2024-10-07 12:48:40,612 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 12:52:56,276 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 14:13:16,644 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 14:20:20,957 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 15:20:02,122 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 15:21:36,133 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 15:24:42,843 WARNING database DDL Query made to DB:
+ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0

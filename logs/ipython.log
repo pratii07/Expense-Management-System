@@ -1,0 +1,42 @@
+2024-09-16 23:24:20,704 INFO ipython === bench console session ===
+2024-09-16 23:24:20,704 INFO ipython frappe.db.get_value("Driver","DR-010")
+2024-09-16 23:24:20,704 INFO ipython frappe.db.get_value("Driver","DR-010","first_name")
+2024-09-16 23:24:20,705 INFO ipython frappe.db.get_doc("Driver","DR-010")
+2024-09-16 23:24:20,705 INFO ipython frappe.get_doc("Driver","DR-010")
+2024-09-16 23:24:20,705 INFO ipython d = frappe.get_doc("Driver","DR-010")
+2024-09-16 23:24:20,705 INFO ipython d.owner
+2024-09-16 23:24:20,705 INFO ipython d.creation
+2024-09-16 23:24:20,705 INFO ipython d = frappe.get_doc("Driver","DR-006","first_name")
+2024-09-16 23:24:20,705 INFO ipython d.first_name
+2024-09-16 23:24:20,705 INFO ipython d = frappe.new_doc("Driver")
+2024-09-16 23:24:20,705 INFO ipython d.first_name = "Pari"
+2024-09-16 23:24:20,705 INFO ipython d.last_name = "Ray"
+2024-09-16 23:24:20,706 INFO ipython d.license_number = "PR07"
+2024-09-16 23:24:20,706 INFO ipython d.save()
+2024-09-16 23:24:20,706 INFO ipython === session end ===
+2024-09-17 22:56:31,357 INFO ipython === bench console session ===
+2024-09-17 22:56:31,358 INFO ipython ride = frappe.get_doc('Ride Booking', 'qqrb1a3i8o')
+2024-09-17 22:56:31,358 INFO ipython ride = frappe.get_doc('Ride Booking', 'ord-019')
+2024-09-17 22:56:31,359 INFO ipython ride.order
+2024-09-17 22:56:31,359 INFO ipython ride.items
+2024-09-17 22:56:31,359 INFO ipython for item in ride.items:
+    print(item.source, item.destination, item.distance)
+    
+2024-09-17 22:56:31,359 INFO ipython === session end ===
+2024-10-02 22:54:46,560 INFO ipython === bench console session ===
+2024-10-02 22:54:46,561 INFO ipython frappe.db.get_single_value('Rentals Settings', 'standard_rate')
+2024-10-02 22:54:46,561 INFO ipython frappe.db.get_singles_dic("Rentals Settings")
+2024-10-02 22:54:46,561 INFO ipython clear
+2024-10-02 22:54:46,561 INFO ipython exist
+2024-10-02 22:54:46,562 INFO ipython === session end ===
+2024-10-04 17:37:02,234 INFO ipython === bench console session ===
+2024-10-04 17:37:02,235 INFO ipython ride = frappe.get_doc('Ride Booking', 'ord-019')
+2024-10-04 17:37:02,235 INFO ipython print(ride)
+2024-10-04 17:37:02,235 INFO ipython print(ride.vehicle)
+2024-10-04 17:37:02,235 INFO ipython print(ride.order)
+2024-10-04 17:37:02,235 INFO ipython print(ride.status)
+2024-10-04 17:37:02,236 INFO ipython print(ride.rate)
+2024-10-04 17:37:02,236 INFO ipython ride = frappe.get_doc('Ride Booking', 'ord-025')
+2024-10-04 17:37:02,236 INFO ipython print(ride.rate)
+2024-10-04 17:37:02,236 INFO ipython clear
+2024-10-04 17:37:02,236 INFO ipython === session end ===

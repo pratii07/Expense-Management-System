@@ -1,0 +1,246 @@
+2024-09-26 21:58:00,857 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for pratiksha.com
+2024-09-26 21:58:00,876 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for pratiksha.com
+2024-09-26 21:58:00,947 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for pratiksha.com
+2024-09-26 21:58:00,958 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for pratiksha.com
+2024-09-26 21:58:00,985 ERROR scheduler Skipped queueing frappe.email.doctype.newsletter.newsletter.send_scheduled_email because it was found in queue for pratiksha.com
+2024-09-26 21:58:00,996 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,006 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,027 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,042 ERROR scheduler Skipped queueing frappe.model.utils.link_count.update_link_count because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,056 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,109 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,128 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,137 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,146 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,162 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,179 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,203 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.notify_unreplied because it was found in queue for pratiksha.com
+2024-09-26 21:58:01,237 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,660 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,666 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_drive.google_drive.daily_backup because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,674 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,679 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,683 ERROR scheduler Skipped queueing frappe.desk.notifications.clear_notifications because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,687 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,694 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,700 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,706 ERROR scheduler Skipped queueing frappe.model.utils.link_count.update_link_count because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,710 ERROR scheduler Skipped queueing frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,715 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.notify_unreplied because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,719 ERROR scheduler Skipped queueing frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,722 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,726 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,730 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_daily_alerts because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,735 ERROR scheduler Skipped queueing frappe.core.doctype.log_settings.log_settings.run_log_clean_up because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,739 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,743 ERROR scheduler Skipped queueing frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,748 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,752 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_daily_updates because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,757 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,763 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,769 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,776 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,784 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,801 ERROR scheduler Skipped queueing frappe.sessions.clear_expired_sessions because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,814 ERROR scheduler Skipped queueing frappe.email.doctype.newsletter.newsletter.send_scheduled_email because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,819 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,825 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,829 ERROR scheduler Skipped queueing frappe.desk.doctype.event.event.send_event_digest because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,837 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,842 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for pratiksha.com
+2024-09-27 09:22:00,848 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,117 ERROR scheduler Skipped queueing frappe.model.utils.link_count.update_link_count because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,160 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,174 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,187 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,237 ERROR scheduler Skipped queueing frappe.email.doctype.newsletter.newsletter.send_scheduled_email because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,242 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.notify_unreplied because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,256 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,285 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,325 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,396 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for pratiksha.com
+2024-09-27 18:54:00,407 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,147 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,162 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,172 ERROR scheduler Skipped queueing frappe.model.utils.link_count.update_link_count because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,194 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,208 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,220 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,235 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,242 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,253 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,264 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,282 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.notify_unreplied because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,299 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,352 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,371 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,377 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,384 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for pratiksha.com
+2024-09-27 21:42:00,388 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,821 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,826 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,838 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,841 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,849 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,866 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,873 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,876 ERROR scheduler Skipped queueing frappe.email.doctype.newsletter.newsletter.send_scheduled_email because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,884 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,893 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,898 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,907 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,918 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,921 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for pratiksha.com
+2024-09-28 11:42:00,924 ERROR scheduler Skipped queueing frappe.model.utils.link_count.update_link_count because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,678 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,695 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,713 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,717 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,725 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,730 ERROR scheduler Skipped queueing frappe.model.utils.link_count.update_link_count because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,738 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,752 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,757 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,768 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,774 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,790 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,796 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,808 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,813 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,822 ERROR scheduler Skipped queueing frappe.email.doctype.newsletter.newsletter.send_scheduled_email because it was found in queue for pratiksha.com
+2024-09-28 12:50:00,849 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for pratiksha.com
+2024-09-28 16:02:00,966 ERROR scheduler Exception in Enqueue Events for Site pratiksha.com
+Traceback (most recent call last):
+  File "/home/b116/newfrappebench/env/lib/python3.10/site-packages/pymysql/connections.py", line 649, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/scheduler.py", line 106, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/scheduler.py", line 150, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/scheduler.py", line 163, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "/home/b116/newfrappebench/apps/frappe/frappe/database/database.py", line 846, in get_single_value
+    ).run()
+  File "/home/b116/newfrappebench/apps/frappe/frappe/query_builder/utils.py", line 84, in execute_query
+    result = frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/b116/newfrappebench/apps/frappe/frappe/database/database.py", line 213, in sql
+    self.connect()
+  File "/home/b116/newfrappebench/apps/frappe/frappe/database/database.py", line 118, in connect
+    self._conn: "MariadbConnection" | "PostgresConnection" = self.get_connection()
+  File "/home/b116/newfrappebench/apps/frappe/frappe/database/mariadb/database.py", line 107, in get_connection
+    conn = self._get_connection()
+  File "/home/b116/newfrappebench/apps/frappe/frappe/database/mariadb/database.py", line 113, in _get_connection
+    return self.create_connection()
+  File "/home/b116/newfrappebench/apps/frappe/frappe/database/mariadb/database.py", line 116, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "/home/b116/newfrappebench/env/lib/python3.10/site-packages/pymysql/connections.py", line 361, in __init__
+    self.connect()
+  File "/home/b116/newfrappebench/env/lib/python3.10/site-packages/pymysql/connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+2024-10-05 20:06:00,475 ERROR scheduler Exception in Enqueue Events for Site pratiksha.com
+Traceback (most recent call last):
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/scheduler.py", line 106, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/scheduler.py", line 150, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/scheduler.py", line 163, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "/home/b116/newfrappebench/apps/frappe/frappe/database/database.py", line 849, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/__init__.py", line 1414, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/meta.py", line 64, in get_meta
+    meta = Meta(doctype)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/meta.py", line 118, in __init__
+    super().__init__("DocType", doctype)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/document.py", line 128, in __init__
+    self.load_from_db()
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/meta.py", line 124, in load_from_db
+    super().load_from_db()
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/document.py", line 201, in load_from_db
+    self.set(df.fieldname, children)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/base_document.py", line 245, in set
+    self.extend(key, value)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/base_document.py", line 312, in extend
+    self.append(key, v)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/base_document.py", line 271, in append
+    d = self._init_child(value, key)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/base_document.py", line 326, in _init_child
+    value = get_controller(doctype)(value)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/b116/newfrappebench/apps/frappe/frappe/__init__.py", line 1695, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/b116/newfrappebench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/b116/newfrappebench/apps/frappe/frappe/__init__.py", line 1664, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/b116/newfrappebench/apps/frappe/frappe/__init__.py", line 1530, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'expensemanager'
+2024-10-06 17:58:00,419 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,425 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,429 ERROR scheduler Skipped queueing frappe.email.doctype.newsletter.newsletter.send_scheduled_email because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,436 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,442 ERROR scheduler Skipped queueing frappe.core.doctype.log_settings.log_settings.run_log_clean_up because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,448 ERROR scheduler Skipped queueing frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,454 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,457 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,461 ERROR scheduler Skipped queueing frappe.utils.global_search.sync_global_search because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,463 ERROR scheduler Skipped queueing frappe.desk.doctype.event.event.send_event_digest because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,467 ERROR scheduler Skipped queueing frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,470 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,473 ERROR scheduler Skipped queueing frappe.desk.doctype.changelog_feed.changelog_feed.fetch_changelog_feed because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,476 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,479 ERROR scheduler Skipped queueing frappe.sessions.clear_expired_sessions because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,483 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.notify_unreplied because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,490 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,497 ERROR scheduler Skipped queueing frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,505 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,512 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_daily_alerts because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,521 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_daily_updates because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,526 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,531 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,536 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_drive.google_drive.weekly_backup because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,547 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,554 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,560 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,563 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,566 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,569 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,572 ERROR scheduler Skipped queueing frappe.utils.change_log.check_for_update because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,575 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_drive.google_drive.daily_backup because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,579 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,583 ERROR scheduler Skipped queueing frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,589 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,598 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_weekly_updates because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,604 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for pratiksha.com
+2024-10-06 17:58:00,610 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record because it was found in queue for pratiksha.com
