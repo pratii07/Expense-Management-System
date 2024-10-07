@@ -603,3 +603,5 @@ ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.
 ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
 2024-10-07 15:24:42,843 WARNING database DDL Query made to DB:
 ALTER TABLE `tabExpense Claim` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-07 16:05:05,085 WARNING database DDL Query made to DB:
+ALTER TABLE `tabRide Order` MODIFY `pickup_address` longtext
